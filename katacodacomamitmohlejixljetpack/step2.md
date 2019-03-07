@@ -3,8 +3,7 @@
 To start this image, use the following command:
 
 ```
-$ docker run --network=jetpack -d -e "ADMIN_PASSWORD=admin" -e "ACCEPT_EULA=Y" -p 4516:4516 --name 
-xld xebialabs/xl-jetpack-deploy:8.5
+docker run --network=jetpack -d -e "ADMIN_PASSWORD=admin" -e "ACCEPT_EULA=Y" -p 4516:4516 --name xld xebialabs/xl-jetpack-deploy:8.5
 ```
 
 Set **ADMIN_PASSWORD** to the desired password for the admin user. Note that by running this command, you are accepting the End User License Agreement for XL JetPack.
